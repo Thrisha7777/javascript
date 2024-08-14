@@ -1,0 +1,396 @@
+Task-11
+<html>
+    <head>
+        <script>
+            myVariable = 42;
+            console.log(myVariable); 
+
+        </script>
+    </head>
+</html>
+Task-12
+<html>
+    <head>
+        <script>
+            "use strict";
+
+myVariable = 42;
+
+console.log(myVariable); 
+
+
+        </script>
+    </head>
+</html>
+Task-13
+<html>
+    <head>
+        <title>
+            <script>
+                "use strict";
+var myVariable = 42;
+delete myVariable; 
+function myFunction() {
+    console.log("Hello");
+}
+delete myFunction; 
+function myFunctionWithParameter(param) {
+    delete param; 
+    console.log(param);
+}
+myFunctionWithParameter(10);
+
+            </script>
+        </title>
+    </head>
+</html>
+Task-14
+<html>
+    <head>
+        <script>
+function assignWithoutStrict() {
+    x = 10; 
+    console.log(x); 
+}
+function assignWithStrict() {
+    "use strict";
+    x = 10; 
+}
+assignWithStrict();
+
+        </script>
+    </head>
+</html>
+Task-15
+<html>
+    <head>
+        <script>
+            "use strict";
+
+function declareWithReservedKeyword() {
+    var let = 10;
+}
+
+declareWithReservedKeyword();
+
+        </script>
+    </head>
+</html>
+Task-16
+<html>
+    <head>
+        <script>
+            function exampleVar() {
+    console.log(a); 
+    var a = 10;
+    console.log(a); 
+
+    var a = 20; 
+    console.log(a); 
+}
+exampleVar();
+
+        </script>
+    </head>
+</html>
+Task-17
+<html>
+    <head>
+        <script>
+            function reassignConst() {
+    const myConstant = 10;
+    console.log(myConstant);
+    myConstant = 20; 
+}
+
+reassignConst();
+
+        </script>
+    </head>
+</html>
+Task-18
+<html>
+    <head>
+        <script>
+            let myVariable;
+console.log(myVariable); 
+
+        </script>
+    </head>
+</html>
+Task-19
+<html>
+    <head>
+        <script>
+            let myVariable;
+myVariable = 42;
+console.log(typeof myVariable); 
+myVariable = "Hello, world!";
+console.log(typeof myVariable); 
+myVariable = true;
+console.log(typeof myVariable); 
+ </script>
+    </head>
+</html>
+Task-20
+<html>
+    <head>
+        <script>
+            let oldName = 42;  
+console.log(oldName); 
+let newName = oldName; 
+console.log(newName); 
+oldName = undefined;
+console.log(oldName); 
+
+        </script>
+    </head>
+</html>
+Task-23
+<html>
+    <head>
+        <script>
+const mySymbol = Symbol("uniqueIdentifier");
+console.log(mySymbol); 
+console.log(typeof mySymbol); 
+
+        </script>
+    </head>
+</html>
+Task-24
+<html>
+    <head>
+        <script>
+let myVariable = null;
+console.log(typeof myVariable); 
+
+        </script>
+    </head>
+</html>
+Task-25
+function exampleVar() {
+    if (true) {
+        var x = 10;
+    }
+    console.log(x);
+}
+
+exampleVar();
+Task-26
+<html>
+    <head>
+        <script>
+            let stringValue = "123";
+let numberValue = +stringValue;
+console.log(numberValue);       
+console.log(typeof numberValue); 
+
+        </script>
+    </head>
+</html>
+Task-27
+<html>
+    <head>
+        <script>
+            let stringValue = "true";
+let booleanValue = !!stringValue; 
+console.log(booleanValue);      
+console.log(typeof booleanValue); 
+
+        </script>
+    </head>
+</html>
+Task-29
+<html>
+    <head>
+        <script>
+            let num = 5;
+console.log(++num); 
+console.log(num); 
+
+num = 5;
+console.log(--num); 
+console.log(num);  
+</script>
+    </head>
+</html>
+Task-30
+<html>
+    <head>
+        <script>
+            let a = 5;
+let b = 3;
+let c = 10;
+let d = 2;
+
+
+let result = a + b * c / d - (c > b && d < a) ? a - b : c + d;
+console.log(result); 
+
+        </script>
+    </head>
+</html>
+Task-31
+<html>
+    <head>
+        <script>
+            let num1 = 10;
+let num2 = 5;
+console.log(num1 > num2); 
+console.log(num1 < num2);
+console.log(num1 >= num2); 
+console.log(num1 <= num2); 
+
+        </script>
+    </head>
+</html>
+Task-32
+<html>
+    <head>
+        <script>
+let number = 5;
+let string = "5";
+
+console.log(number == string);         
+console.log(number === string);        
+        </script>
+    </head>
+</html>
+Task-33
+<html>
+    <head>
+        <script>
+            let string1 = "apple";
+let string2 = "banana";
+console.log(string1 < string2);
+console.log(string1 > string2);  
+console.log(string1 <= string2); 
+console.log(string1 >= string2); 
+
+        </script>
+    </head>
+</html>
+Task-34
+<html>
+    <head>
+        <script>
+            let number = 5;
+let string = "5";
+console.log(number != string);           
+console.log(number !== string); 
+
+        </script>
+    </head>
+</html>
+Task-35
+<html>
+    <head>
+        <script>
+            let nullValue = null;
+let undefinedValue = undefined;
+
+console.log(nullValue == undefinedValue);
+
+        </script>
+    </head>
+</html>
+Task-36
+<html>
+    <head>
+        <script>
+            let number = 7; // 
+
+if (number % 2 === 0) {
+    console.log(number + " is even.");
+} else {
+    console.log(number + " is odd.");
+}
+
+        </script>
+    </head>
+</html>
+Task-37
+<html>
+    <head>
+        <script>
+            let number = -5; 
+
+if (number === 0) {
+    console.log(number + " is zero.");
+} else {
+    if (number > 0) {
+        console.log(number + " is positive.");
+    } else {
+        console.log(number + " is negative.");
+    }
+}
+
+        </script>
+    </head>
+</html>
+Task-38
+<html>
+    <head>
+        <script>
+            let number = 10; 
+let result = number > 0 ? number + " is positive." : number + " is negative.";
+
+console.log(result);
+
+        </script>
+    </head>
+</html>
+Task-39
+<html>
+    <head>
+        <script>
+            let variable = "Hello, World!";
+let validityCheck = variable != null ? "Variable is valid." : "Variable is not valid.";
+
+console.log(validityCheck);
+
+        </script>
+    </head>
+</html>
+Task-40
+<html>
+    <head>
+        <script>
+            let hour = new Date().getHours();
+let greeting = hour < 12 ? "Good morning!" : (hour < 18 ? "Good afternoon!" : "Good evening!");
+
+console.log(greeting);
+
+        </script>
+    </head>
+</html>
+Task-41
+<html>
+    <head>
+        <script>
+let a = true;
+let b = false;
+let c = true;
+let d = false;
+console.log(a && b);  
+console.log(b || c);  
+console.log(!d);    
+console.log(!(a && (b || c))); 
+
+        </script>
+    </head>
+</html>
+Task-42
+<html>
+    <head>
+        <script>
+            let number = 15; 
+if (number >= 10 && number <= 20) {
+    console.log(number + " is in the range.");
+} else {
+    console.log(number + " is not in the range.");
+}
+
+        </script>
+    </head>
+</html>
